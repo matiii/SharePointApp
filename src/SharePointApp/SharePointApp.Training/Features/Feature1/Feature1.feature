@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="a2b97969-59aa-4468-8a0b-391ef15ea892" featureId="a2b97969-59aa-4468-8a0b-391ef15ea892" imageUrl="" solutionId="00000000-0000-0000-0000-000000000000" title="SharePointApp.Training Feature1" version="" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel" />
