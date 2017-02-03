@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="Classes_Register_Id"
+                Location="CommandUI.Ribbon"
+                RegistrationType="List"
+                RegistrationId="101">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.ListItem.Actions.Controls._children">
+          <Button 
+            Id="bRegister" 
+            Alt="Register" 
+            Command="Register" 
+            Description="Register for the selected class" 
+            Image32by32="/_layouts/1045/images/formatmap32x32.png"
+            Image32by32Top="-160"
+            Image32by32Left="-288"
+            LabelText="Register" 
+            Sequence="10000" 
+            TemplateAlias="o2"/>
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+
+      <CommandUIHandlers>
+        <CommandUIHandler Command="Register"
+                          EnabledScript="false"
+                          
+                          CommandAction="javascript: 
+                          //SP.ListOperation.Selection.getSelectedItems().length == 1;
+                          function setLocation()
+                          {
+                          throw new Error('hehe');
+                            window.location='/trainings/Lists/Registrations/newform.aspx?classid={SelectedItemId}';
+                          }
+                          
+                          setLocation();
+                          ">
+
+
+        </CommandUIHandler>
+      </CommandUIHandlers>
+      
+    </CommandUIExtension>
+  </CustomAction>
+</Elements>
+  

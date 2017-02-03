@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePointApp.Training", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePointApp.Training.Events", "SharePointApp.Training.Events\SharePointApp.Training.Events.csproj", "{AFBFA101-3AFB-4FE2-905D-E9C882A48BFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePointApp.Training.Ribbon", "SharePointApp.Training.Ribbon\SharePointApp.Training.Ribbon.csproj", "{E7626CBE-416F-47BF-9D9C-53DEB2EED272}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,12 @@ Global
 		{AFBFA101-3AFB-4FE2-905D-E9C882A48BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFBFA101-3AFB-4FE2-905D-E9C882A48BFB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AFBFA101-3AFB-4FE2-905D-E9C882A48BFB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E7626CBE-416F-47BF-9D9C-53DEB2EED272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7626CBE-416F-47BF-9D9C-53DEB2EED272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7626CBE-416F-47BF-9D9C-53DEB2EED272}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E7626CBE-416F-47BF-9D9C-53DEB2EED272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7626CBE-416F-47BF-9D9C-53DEB2EED272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7626CBE-416F-47BF-9D9C-53DEB2EED272}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
