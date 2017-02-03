@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePointApp.Training", "SharePointApp.Training\SharePointApp.Training.csproj", "{F4FE4EFC-3CDB-4A78-965F-758CB7589D14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePointApp.Training.Events", "SharePointApp.Training.Events\SharePointApp.Training.Events.csproj", "{AFBFA101-3AFB-4FE2-905D-E9C882A48BFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,12 @@ Global
 		{F4FE4EFC-3CDB-4A78-965F-758CB7589D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4FE4EFC-3CDB-4A78-965F-758CB7589D14}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F4FE4EFC-3CDB-4A78-965F-758CB7589D14}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AFBFA101-3AFB-4FE2-905D-E9C882A48BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFBFA101-3AFB-4FE2-905D-E9C882A48BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFBFA101-3AFB-4FE2-905D-E9C882A48BFB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AFBFA101-3AFB-4FE2-905D-E9C882A48BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFBFA101-3AFB-4FE2-905D-E9C882A48BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFBFA101-3AFB-4FE2-905D-E9C882A48BFB}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
