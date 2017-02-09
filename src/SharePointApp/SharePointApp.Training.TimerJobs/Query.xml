@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Where>
+  <And>
+    <Eq>
+      <FieldRef Name='Trainer' />
+      <Value Type='Lookup'>" + fullName + "</Value>
+    </Eq>
+    <Geq>
+      <FieldRef Name='StartDate'/>
+      <Value Type='DateTime'>
+        <Today />
+      </Value>
+    </Geq>
+  </And>
+</Where>

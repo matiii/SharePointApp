@@ -23,13 +23,15 @@
 
       <CommandUIHandlers>
         <CommandUIHandler Command="Register"
-                          EnabledScript="false"
-                          
                           CommandAction="javascript: 
-                          //SP.ListOperation.Selection.getSelectedItems().length == 1;
+                          
                           function setLocation()
                           {
-                          throw new Error('hehe');
+                            if(SP.ListOperation.Selection.getSelectedItems().length !== 1){
+                              alert('You have to choose only one item.');
+                              return;
+                            }
+                            
                             window.location='/trainings/Lists/Registrations/newform.aspx?classid={SelectedItemId}';
                           }
                           
