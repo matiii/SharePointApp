@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="5172782f-8b98-4d30-8e4c-e9f298835a32" solutionId="5172782f-8b98-4d30-8e4c-e9f298835a32" resetWebServer="false" name="SharePointApp.AddAttachmentToListItem" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="23968414-b732-4c22-b93b-bce8ebd6a85d" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="361cf736-6eb5-4e7f-b532-7d1d625a4514" />
+  </projectItems>
+</package>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="FileUploader" List="113" Url="_catalogs/wp">
+    <File Path="FileUploader\FileUploader.webpart" Url="SharePointApp.AddAttachmentToListItem_FileUploader.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Custom" />
+    </File>
+  </Module>
+</Elements>

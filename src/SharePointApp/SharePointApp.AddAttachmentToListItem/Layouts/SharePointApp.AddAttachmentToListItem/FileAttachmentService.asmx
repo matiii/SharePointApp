@@ -1,0 +1,1 @@
+﻿<%@ WebService Class="SharePointApp.AddAttachmentToListItem.FileService, SharePointApp.AddAttachmentToListItem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97a40a00fb44c5d8" %>
