@@ -22,11 +22,8 @@ namespace SharePointApp.AddAttachmentToListItem.FileUploader
             InitializeControl();
         }
 
-        public string AngularId { get; set; }
-
         protected void Page_Load(object sender, EventArgs e)
         {
-            AngularId = Guid.NewGuid().ToString("N");
         }
     }
 }
